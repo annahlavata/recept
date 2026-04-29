@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: "mojepismo";
+    src: url(https://fonts.google.com/specimen/Young+Serif)
+}
+
+
+body {
+        font-family: "Mojepismo";
+        background-color: #f3e5d8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+
+    .card {
+        background: white;
+        width: 600px;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+        .vnitrni{
+            background:    hsl(330, 100%, 98%);
+            align-self: center;
+            width: 550px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+
+    h2 {
+        margin-top: 30px;
+        color:hsl(14, 45%, 36%);
+        }
+
+    ol li::marker{
+        color: hsl(14, 45%, 36%);
+    }
+
+    ul li::marker{
+        color: hsl(332, 51%, 32%);
+    }
+
+    ul, ol {
+        margin-left: 20px;
+    }
+ h3 {
+        margin-top: 30px;
+        color: hsl(332, 51%, 32%);
+        }
+
+    .nutrition-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .nutrition-table td {
+        padding: 8px 0;
+        border-bottom: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+
+    .nutrition-table td:last-child {
+        text-align: right;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+
+    .obrazek{
+        overflow: hidden;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .cislo{
+        color: hsl(14, 45%, 36%);
+    }
